@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20150222212053) do
 
   create_table "articles", force: true do |t|
     t.string   "title"
-    t.text     "context"
+    t.text     "content"
     t.integer  "category_id"
     t.boolean  "active"
     t.datetime "created_at"
